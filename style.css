@@ -130,12 +130,12 @@ p {
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  box-shadow: 10px 10px 0px 10px var(--bg);
-  transform: rotate(-10deg);
-  -webkit-transform: rotate(-10deg);
-  -moz-transform: rotate(-10deg);
-  -ms-transform: rotate(-10deg);
-  -o-transform: rotate(-10deg);
+  box-shadow: 10px 15px 0px 10px var(--bg);
+  transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
 }
 /* semi-circle */
 .semi-circle {
@@ -147,6 +147,21 @@ p {
   border-bottom: solid 50px transparent;
   border-left: solid 50px transparent;
   border-right: solid 50px var(--bg);
+  border-top: solid 50px var(--bg);
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+}
+/* quarter-circle */
+.quarter-circle {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: solid 50px transparent;
   border-top: solid 50px var(--bg);
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
