@@ -3,18 +3,20 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 18px;
-  --bg: rosybrown;
+  --bg: #bc8f8f;
 }
 body {
   margin: 20px;
   text-align: center;
   background-color: azure;
 }
+/* the title and subtitle of the page */
 header {
   padding: 20px 30px;
   color: purple;
   font-weight: 500;
 }
+/* flex container containing all the shapes containers */
 .container {
   display: flex;
   flex-direction: row;
@@ -25,11 +27,11 @@ header {
   background-color: white;
 }
 /* shape containers */
-.container > div {
+.container > div >div {
   margin: 10px;
   width: 240px;
   height: 240px;
-  background-color: rgb(253, 212, 129);
+  background-color: hsl(40, 97%, 75%);
   box-shadow: 0 0 5px hsl(40, 72%, 59%);
   border: solid 1px hsl(40, 72%, 59%);
   display: flex;
@@ -42,4 +44,43 @@ header {
 p {
   padding: 10px 0;
   z-index: 20;
+}
+/* big A */
+.A{
+  width: 50px;
+  height: 30px;
+  background-color: var(--bg);
+  z-index: 0;
+}
+.A::before{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 120px;
+  background-color: var(--bg);
+  z-index: 23;
+  transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+  -moz-transform: skewX(-15deg);
+  -ms-transform: skewX(-15deg);
+  -o-transform: skewX(-15deg);
+  top: 50px;
+  left: 80px;
+}
+.A::after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 30px;
+  height: 120px;
+  background-color: var(--bg);
+  z-index: 23;
+  transform:skewX(15deg);
+  top: 50px;
+  right: 80px;
+  -webkit-transform:skewX(15deg);
+  -moz-transform:skewX(15deg);
+  -ms-transform:skewX(15deg);
+  -o-transform:skewX(15deg);
 }
