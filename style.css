@@ -57,7 +57,7 @@ p {
   display: block;
   position: absolute;
   width: 30px;
-  height: 120px;
+  height: 130px;
   background-color: var(--bg);
   z-index: 23;
   transform: skewX(-15deg);
@@ -73,7 +73,7 @@ p {
   display: block;
   position: absolute;
   width: 30px;
-  height: 120px;
+  height: 130px;
   background-color: var(--bg);
   z-index: 23;
   transform: skewX(15deg);
@@ -93,12 +93,12 @@ p {
   -moz-border-radius: 0 50px 50px 0;
   -ms-border-radius: 0 50px 50px 0;
   -o-border-radius: 0 50px 50px 0;
-  box-shadow: 0 0 0px 25px var(--bg);
+  box-shadow: 0 0 0px 30px var(--bg);
   position: absolute;
   top: 80px;
 }
 .B::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   height: 20px;
@@ -108,6 +108,6 @@ p {
   -moz-border-radius: 0 50px 50px 0;
   -ms-border-radius: 0 50px 50px 0;
   -o-border-radius: 0 50px 50px 0;
-  box-shadow: 0 0 0px 25px var(--bg);
-  top: 45px;
+  box-shadow: 0 0 0px 30px var(--bg);
+  top: 50px;
 }
