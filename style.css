@@ -220,11 +220,11 @@ p {
   background-color: var(--bg);
   right: 0px;
   bottom: 0px;
-  border-radius: 5px 5px 0 0;
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  -ms-border-radius: 5px 5px 0 0;
-  -o-border-radius: 5px 5px 0 0;
+  border-radius: 0px 5px 0 0;
+  -webkit-border-radius: 0px 5px 0 0;
+  -moz-border-radius: 0px 5px 0 0;
+  -ms-border-radius: 0px 5px 0 0;
+  -o-border-radius: 0px 5px 0 0;
 }
 /* H */
 .H{
@@ -253,7 +253,13 @@ p {
   right: -30px;
   top: -50px;
 }
-
+/* I */
+.I{
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+}
 
 
 
