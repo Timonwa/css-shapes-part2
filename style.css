@@ -143,7 +143,7 @@ p {
   left: 75px;
 }
 .E::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 50px;
@@ -152,7 +152,7 @@ p {
   left: 30px;
 }
 .E::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 60px;
@@ -162,7 +162,7 @@ p {
   top: 100px;
 }
 .E-mid {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -180,7 +180,7 @@ p {
   left: 75px;
 }
 .F::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 60px;
@@ -189,7 +189,7 @@ p {
   left: 30px;
 }
 .F::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -211,8 +211,8 @@ p {
   -ms-border-radius: 45% 20% 24% 45%;
   -o-border-radius: 45% 20% 24% 45%;
 }
-.G::before{
-  content: '';
+.G::before {
+  content: "";
   display: block;
   position: absolute;
   width: 30px;
@@ -227,14 +227,14 @@ p {
   -o-border-radius: 0px 5px 0 0;
 }
 /* H */
-.H{
+.H {
   background-color: var(--bg);
   width: 35px;
   height: 30px;
   position: absolute;
 }
-.H::before{
-  content: '';
+.H::before {
+  content: "";
   display: block;
   position: absolute;
   background-color: var(--bg);
@@ -243,8 +243,8 @@ p {
   left: -30px;
   top: -50px;
 }
-.H::after{
-  content: '';
+.H::after {
+  content: "";
   display: block;
   position: absolute;
   background-color: var(--bg);
@@ -254,16 +254,31 @@ p {
   top: -50px;
 }
 /* I */
-.I{
+.I {
   background-color: var(--bg);
   width: 35px;
   height: 130px;
   position: absolute;
 }
-
-
-
-
+/* J */
+.J {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  border-bottom-right-radius: 20px;
+}
+.J::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 40px;
+  height: 35px;
+  background: var(--bg);
+  bottom: 0;
+  left: -40px;
+  border-bottom-left-radius: 20px;
+}
 
 /* O */
 .O {
