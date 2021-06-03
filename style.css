@@ -444,6 +444,44 @@ p {
   left: -35px;
   top: -30px;
 }
+/* R */
+.R {
+  position: absolute;
+  height: 20px;
+  width: 35px;
+  border-radius: 0 50px 50px 0;
+  -webkit-border-radius: 0 50px 50px 0;
+  -moz-border-radius: 0 50px 50px 0;
+  -ms-border-radius: 0 50px 50px 0;
+  -o-border-radius: 0 50px 50px 0;
+  box-shadow: 0 0 0px 30px var(--bg);
+  top: 80px;
+}
+.R::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  left: -35px;
+  top: -30px;
+}
+.R::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: var(--bg);
+  width: 35px;
+  height:60px;
+  left: 10px;
+  top: 40px;
+  transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+  -moz-transform: skewX(30deg);
+  -ms-transform: skewX(30deg);
+  -o-transform: skewX(30deg);
+}
 /* Q */
 .Q {
   height: 120px;
@@ -484,4 +522,149 @@ p {
   background: var(--bg);
   top: 0;
   left: -25px;
+}
+/* V */
+.V {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 70px;
+  transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+  -moz-transform: skewX(15deg);
+  -ms-transform: skewX(15deg);
+  -o-transform: skewX(15deg);
+}
+.V::before {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 55px;
+  transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+  -moz-transform: skewX(-30deg);
+  -ms-transform: skewX(-30deg);
+  -o-transform: skewX(-30deg);
+}
+/* W */
+.W1 {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 50px;
+  transform: skewX(10deg);
+  -webkit-transform: skewX(10deg);
+  -moz-transform: skewX(10deg);
+  -ms-transform: skewX(10deg);
+  -o-transform: skewX(10deg);
+}
+.W2{
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  right: 50px;
+  transform: skewX(-10deg);
+  transform: rotateY(180deg);
+  -webkit-transform: skewX(-10deg);
+  -moz-transform: skewX(-10deg);
+  -ms-transform: skewX(-10deg);
+  -o-transform: skewX(-10deg);
+} 
+.W1::before {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 35px;
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+}
+.W2::before {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: -35px;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+}
+/* X */
+.X {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 100px;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+}
+.X::before {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 0px;
+  transform: skewX(-40deg);
+  -webkit-transform: skewX(-40deg);
+  -moz-transform: skewX(-40deg);
+  -ms-transform: skewX(-40deg);
+  -o-transform: skewX(-40deg);
+}
+/* Y */
+.Y {
+  background-color: var(--bg);
+  width: 35px;
+  height: 90px;
+  position: absolute;
+  top: 50px;
+  left: 80px;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+}
+.Y::before {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 80px;
+  position: absolute;
+  left: 35px;
+  transform: skewX(-40deg);
+  -webkit-transform: skewX(-40deg);
+  -moz-transform: skewX(-40deg);
+  -ms-transform: skewX(-40deg);
+  -o-transform: skewX(-40deg);
+}
+.Y::after {
+  content: '';
+  background-color: var(--bg);
+  width: 35px;
+  height: 70px;
+  position: absolute;
+  left: -7px;
+  top: 70px;
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
 }
