@@ -269,7 +269,7 @@ p {
   border-bottom-right-radius: 20px;
 }
 .J::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 30px;
@@ -279,7 +279,7 @@ p {
   left: -30px;
 }
 .J::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 70px;
@@ -297,7 +297,7 @@ p {
   left: 75px;
 }
 .K::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -312,7 +312,7 @@ p {
   -o-transform: skewX(-30deg);
 }
 .K::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -334,7 +334,7 @@ p {
   position: absolute;
 }
 .L::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -342,6 +342,40 @@ p {
   background: var(--bg);
   bottom: 0;
   right: -40px;
+}
+/* M */
+.M1 {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  left: 50px;
+}
+.M2{
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  right: 50px;
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}
+.M::before {
+  content: "";
+  background-color: var(--bg);
+  width: 35px;
+  height: 70px;
+  position: absolute;
+  left: 30px;
+  transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+  -moz-transform: skewX(30deg);
+  -ms-transform: skewX(30deg);
+  -o-transform: skewX(30deg);
+  -webkit-transform: skewX();
 }
 
 /* O */
@@ -362,7 +396,7 @@ p {
   position: absolute;
 }
 .Q::before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 40px;
@@ -384,7 +418,7 @@ p {
   position: absolute;
 }
 .T::after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   width: 85px;
