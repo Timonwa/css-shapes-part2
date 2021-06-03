@@ -377,6 +377,42 @@ p {
   -o-transform: skewX(30deg);
   -webkit-transform: skewX();
 }
+/* N */
+.N {
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  position: absolute;
+  transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+  -moz-transform: skewX(20deg);
+  -ms-transform: skewX(20deg);
+  -o-transform: skewX(20deg);
+  -webkit-transform: skewX();
+}
+.N::before{
+  content: "";
+  position: absolute;
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+  left: 35px;
+  transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+  -moz-transform: skewX(-20deg);
+  -ms-transform: skewX(-20deg);
+  -o-transform: skewX(-20deg);
+  -webkit-transform: skewX();
+}
+.N::after {
+  content: "";
+  position: absolute;
+  background-color: var(--bg);
+  width: 35px;
+  height: 130px;
+right: 35px;
+  transform: skewX(-20deg);
+}
 
 /* O */
 .O {
